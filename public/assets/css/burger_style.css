@@ -1,0 +1,64 @@
+body {
+  background-color: black !important;
+}
+
+.jumbotron {
+  background-image: url("/assets/img/cheeseburger.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 10px;
+  border-color: white !important;
+  border: solid;
+}
+
+.jumbotron > h1 {
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0),
+    0 -1px rgb(0, 0, 0);
+}
+
+#newburger {
+  border-radius: 5px;
+}
+
+#titleText {
+  color: #fff;
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0),
+    0 -1px rgb(0, 0, 0);
+}
+
+.enterBg {
+  display: flex;
+  justify-content: center;
+}
+
+.break {
+  margin-left: 15px;
+}
+
+.create {
+  margin-left: 2px;
+}
+
+#leftCard {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+#eatbutton,
+#trashbutton {
+  float: right;
+}
+
+#rightCard {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+}
